@@ -1,0 +1,99 @@
+.tab-setting .nav-tabs {
+	width: 20%;
+    border: 0;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	background-color: #c2c2c2;
+	font-weight: bold;
+}
+
+.tab-base .nav-tabs>li:not(.active)>a {
+	background-color: #e4e4e4;
+}
+.tab-base .tabs-border{
+	border-bottom: 2px solid;
+    padding-bottom: 1px;
+}
+.table-bordered {
+    border: 3px solid #ddd;
+}
+
+table thead .sorting_asc {
+    background: url(../images/sort_asc.png) no-repeat center right;
+}
+table thead .sorting_desc {
+    background: url(../images/sort_desc.png) no-repeat center right;
+}
+.sorting {
+    background: url(../images/sort_both.png) no-repeat center right;
+}
+
+@media (min-width: 768px){
+    #navbar {
+        background-color: transparent;
+        z-index: 1000;
+    }
+}
+
+.cart-sum {
+  border-top: 2px solid #222;
+  padding: 20px 0px 20px 0px; }
+  .cart-sum .cs-left {
+    float: left; }
+    .cart-sum .cs-left p {
+      color: #999999; }
+      @media screen and (max-width: 676px) {
+        .cart-sum .cs-left p {
+          font-size: 12px; } }
+  .cart-sum .cs-right {
+    float: right;
+    min-width: 400px; }
+    .cart-sum .cs-right p {
+      padding: 0px 60px 0px 0px;
+      text-align: right;
+      font-size: 15px; }
+    .cart-sum .cs-right h3 {
+      padding: 10px 60px 0px 0px;
+      text-align: right;
+      font-size: 17px;
+      font-weight: bold;
+      color: #c0392b;
+      border-top: 2px solid #222; }
+    @media screen and (max-width: 991px) {
+      .cart-sum .cs-right {
+        min-width: 200px; }
+        .cart-sum .cs-right p {
+          padding: 0px 0px 0px 0px;
+          text-align: right;
+          font-size: 12px; }
+        .cart-sum .cs-right h3 {
+          padding: 10px 0px 0px 0px;
+          font-size: 16px;
+          color: #c0392b;
+          border-top: 1px solid #222; } }
+    @media screen and (max-width: 767px) {
+      .cart-sum .cs-right {
+        min-width: 100px; }
+        .cart-sum .cs-right p {
+          font-size: 12px; }
+        .cart-sum .cs-right h3 {
+          padding: 5px 0px 0px 0px;
+          font-size: 13px;
+          color: #c0392b;
+          border-top: 1px solid #222; } }
+  .cart-sum h4 {
+    margin: -50px 0px 0px 0px;
+    font-size: 16px; }
+    .cart-sum h4 span {
+      font-size: 17px; }
+    @media screen and (max-width: 991px) {
+      .cart-sum h4 {
+        font-size: 14px; }
+        .cart-sum h4 span {
+          font-size: 16px; } }
+    @media screen and (max-width: 767px) {
+      .cart-sum h4 {
+        margin: -30px 0px 0px 0px;
+        font-size: 12px; }
+        .cart-sum h4 span {
+          font-size: 14px; } }
